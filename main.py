@@ -1,5 +1,8 @@
 from  datetime import datetime
+from application.salary import calculate_salary
+from application.db.people import get_employees
 if __name__ == '__main__':
     d_time=datetime.today() 
-    print('hello')
+    get_employees()
+    calculate_salary()
     print(d_time)

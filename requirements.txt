@@ -1,2 +1,1 @@
-
-simple_math 1.1.0
+rich==13.9.3
